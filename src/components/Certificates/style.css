@@ -1,0 +1,119 @@
+.certificates-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.card-container {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(255, 0, 0, 0.4); 
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 100%;
+  max-width: 300px;
+  overflow: hidden;
+  text-align: center;
+  color: white;
+  padding: 15px;
+  animation: fadeInUp 1s ease forwards;
+}
+
+.card-container:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 25px rgba(255, 0, 0, 0.6);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.card-link {
+  text-decoration: none;
+}
+
+.card-link:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+
+.card-image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.card-content h3 {
+  font-size: 18px;
+  margin-top: 10px;
+  text-shadow: 2px 2px 5px rgba(255, 0, 0, 0.6);
+}
+
+.card-content p {
+  font-size: 14px;
+  margin-top: 8px;
+  text-align: left;
+  line-height: 1.6;
+  text-shadow: 1px 1px 3px rgba(255, 0, 0, 0.6);
+}
+
+@media (min-width: 579px) and (max-width: 768px) {
+  .certificates-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .card-container {
+    max-width: 100%;
+  }
+
+  .card-content h3 {
+    font-size: 16px;
+  }
+}
+
+
+@media (min-width: 993px) and (max-width: 1400px) {
+  .certificates-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+
+  .card-container {
+    max-width: 100%;
+  }
+
+  .card-content h3 {
+    font-size: 19px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .certificates-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+
+  .card-container {
+    max-width: 100%;
+  }
+
+  .card-content h3 {
+    font-size: 20px;
+  }
+}
+
+
+@media (min-width: 1750px) {
+  .certificates-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+  }
+
+}

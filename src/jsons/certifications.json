@@ -1,0 +1,63 @@
+[
+    {
+      "title": "Profissão Tech Lead: conhecendo a liderança técnica",
+      "description": "Curso da Alura sobre liderança técnica no papel de Tech Lead.",
+      "image": "https://i.imgur.com/d282NY6.png",
+      "link": "https://cursos.alura.com.br/certificate/67a9b745-793a-476f-8391-5c85c25d11dd?lang"
+    },
+    {
+      "title": "Criando uma API REST Documentada com Spring Web e Swagger",
+      "description": "Curso da DIO sobre criação de API REST documentada com Spring e Swagger.",
+      "image": "https://i.imgur.com/MzlwT8C.png",
+      "link": "https://hermes.dio.me/certificates/DEQB9BWX.pdf"
+    },
+    {
+      "title": "Introdução a Banco de Dados Relacionais (SQL)",
+      "description": "Curso de introdução ao SQL oferecido pela DIO.",
+      "image": "https://i.imgur.com/BLiLOWH.png",
+      "link": "https://hermes.dio.me/certificates/NVVJ4XSY.pdf"
+    },
+    {
+      "title": "Java e Tratamento de Exceções",
+      "description": "Curso sobre tratamento de exceções em Java.",
+      "image": "https://hermes.dio.me/certificates/cover/RMDDMVLG.jpg",
+      "link": "https://www.dio.me/certificate/RMDDMVLG/share"
+    },
+    {
+      "title": "Fundamentos Java",
+      "description": "Curso de Fundamentos de Java pela FIAP.",
+      "image": "https://i.imgur.com/eIXwmiV.png",
+      "link": "https://on.fiap.com.br/local/nanocourses/gerar_certificado.php?chave=4d26790ae7ad075a4b4619d7ac230694&action=view"
+    },
+    {
+      "title": "Aprenda a programar em Java com Orientação a Objetos",
+      "description": "Curso de Java e Orientação a Objetos pela Alura.",
+      "image": "https://i.imgur.com/La5ufDi.png",
+      "link": "https://cursos.alura.com.br/user/josealmeida2/degree-java-568827/certificate"
+    },
+    {
+      "title": "Java: aplicando a Orientação a Objetos",
+      "description": "Curso da Alura sobre aplicação de conceitos de POO em Java.",
+      "image": "https://i.imgur.com/9RDCVsQ.png",
+      "link": "https://cursos.alura.com.br/certificate/ba9d0aa0-27ee-480f-8bb0-13e9681619e9"
+    },
+    {
+      "title": "Fundamentos da Programação Orientada a Objetos com Java",
+      "description": "Curso da DIO sobre programação orientada a objetos em Java.",
+      "image": "https://hermes.dio.me/certificates/cover/5D635ACC.jpg",
+      "link": "https://www.dio.me/certificate/5D635ACC/share"
+    },
+    {
+      "title": "Versionamento de código com Git e GitHub",
+      "description": "Curso da DIO sobre Git e GitHub.",
+      "image": "https://hermes.dio.me/certificates/cover/BE165FAE.jpg",
+      "link": "https://www.dio.me/certificate/BE165FAE/share"
+    },
+    {
+      "title": "PHP",
+      "description": "Curso de PHP oferecido pela Alura.",
+      "image": "https://i.imgur.com/mqKUxUK.png",
+      "link": "https://cursos.alura.com.br/certificate/24a66a08-cfeb-48fa-bff0-f627bbf5a48b"
+    }
+  ]
+  
