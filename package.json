@@ -1,6 +1,7 @@
 {
   "name": "portfolio-jose",
   "version": "0.1.0",
+  "homepage": "https://jose.github.io/meu-portfolio",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.6.0",
@@ -17,6 +18,7 @@
     "@types/react-dom": "^18.3.1",
     "axios": "^1.7.7",
     "bootstrap": "^5.3.3",
+    "gh-pages": "^6.2.0",
     "lottie-web": "^5.12.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
@@ -32,7 +34,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
