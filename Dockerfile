@@ -1,27 +1,20 @@
-# Use Node.js 23.0.0 como imagem base
-FROM node:23.0.0 AS build
+# Use a imagem base com Node.js 23 e Yarn
+FROM node:23
 
-# Defina o diretório de trabalho no contêiner
+# Diretório de trabalho dentro do contêiner
 WORKDIR /app
 
-# Copie o package.json e o yarn.lock para o contêiner
+# Copie os arquivos package.json, yarn.lock
 COPY package.json yarn.lock ./
 
-# Instale as dependências com Yarn
+# Instale as dependências usando Yarn
 RUN yarn install
 
-# Copie o restante do código
+# Copie o restante do código da aplicação
 COPY . .
 
-# Crie o build da aplicação
-RUN yarn build
+# Exponha a porta onde o React vai rodar (porta padrão: 3000)
+EXPOSE 3000
 
-# Use Nginx para servir a aplicação
-FROM nginx:alpine
-COPY --from=build /app/build /usr/share/nginx/html
-
-# Expor a porta 80
-EXPOSE 80
-
-# Comando padrão para rodar o Nginx
-CMD ["nginx", "-g", "daemon off;"]
+# Comando para iniciar o servidor de desenvolvimento com Yarn
+CMD ["yarn", "start"]
