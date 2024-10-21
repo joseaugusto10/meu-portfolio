@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/meu-portfolio/static/css/main.f2fdf50f.css",
+    "main.js": "/meu-portfolio/static/js/main.6c042e92.js",
+    "static/js/453.295e7d2a.chunk.js": "/meu-portfolio/static/js/453.295e7d2a.chunk.js",
+    "static/media/bg-about-me.webp": "/meu-portfolio/static/media/bg-about-me.9c983e658eac589de67d.webp",
+    "static/media/jose-augusto-sobremim.png": "/meu-portfolio/static/media/jose-augusto-sobremim.a12277ad2cbf74f870dd.png",
+    "static/media/jose-augusto.jpg": "/meu-portfolio/static/media/jose-augusto.84b560a2fa577fb201e5.jpg",
+    "index.html": "/meu-portfolio/index.html",
+    "main.f2fdf50f.css.map": "/meu-portfolio/static/css/main.f2fdf50f.css.map",
+    "main.6c042e92.js.map": "/meu-portfolio/static/js/main.6c042e92.js.map",
+    "453.295e7d2a.chunk.js.map": "/meu-portfolio/static/js/453.295e7d2a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f2fdf50f.css",
+    "static/js/main.6c042e92.js"
+  ]
+}
